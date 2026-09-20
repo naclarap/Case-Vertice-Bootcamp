@@ -1,0 +1,4 @@
+/* Webfont substitutions — see readme.md "Font substitution".
+   EloGroup's production faces (a proprietary Aeonik/Neue-Haas-class grotesk + a spaced mono)
+   were not supplied as binaries, so the nearest Google Fonts equivalents are loaded here. */
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&family=IBM+Plex+Mono:wght@300;400;500&display=swap');

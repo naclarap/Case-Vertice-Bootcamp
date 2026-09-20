@@ -1,0 +1,12 @@
+# Normaliza fim de linha no repositório: LF sempre.
+# Sem isto, clonar no Windows e no Linux produz diffs de arquivo inteiro que
+# não têm nada a ver com o que mudou de fato.
+* text=auto eol=lf
+
+# Binários e dados: nunca converter.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+data/*.csv text eol=lf

@@ -1,0 +1,42 @@
+:root{
+--font-display:'Schibsted Grotesk','Helvetica Neue',Helvetica,sans-serif;
+--font-body:'Schibsted Grotesk','Helvetica Neue',Helvetica,sans-serif;
+--font-mono:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
+
+/* Display — slide headlines, hero statements */
+--display-1:clamp(44px,5.2vw,76px); /* @kind font */
+--display-2:clamp(34px,3.6vw,52px); /* @kind font */
+--display-3:28px; /* @kind font */
+--display-line:1.04; /* @kind other */
+--display-tracking:-0.022em;
+--display-weight:400;
+
+/* Headings — dashboard & card titles */
+--heading-1:24px;
+--heading-2:19px;
+--heading-3:16px;
+--heading-line:1.22; /* @kind other */
+--heading-tracking:-0.012em;
+--heading-weight:600;
+
+/* Body */
+--body-lg:17px;
+--body-md:15px;
+--body-sm:13px;
+--body-line:1.5; /* @kind other */
+--body-weight:400;
+
+/* Mono eyebrow / label — uppercase, wide tracking */
+--label-lg:12px;
+--label-md:11px;
+--label-sm:10px;
+--label-tracking:0.16em;
+--label-weight:400;
+
+/* Numerals — KPI figures */
+--metric-xl:48px;
+--metric-lg:34px;
+--metric-md:24px;
+--metric-tracking:-0.03em;
+--metric-weight:400;
+}

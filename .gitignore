@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# ------------------------------------------------------ ambiente virtual
+# Criado por `python -m venv venv`. Nunca versionado: é específico do sistema
+# operacional e da versão do Python de quem instalou. Reproduzível com
+# `pip install -r requirements.txt`.
+venv/
+.venv/
+env/
+
+# ----------------------------------------------------- caches de execução
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# -------------------------------------------------------------- segredos
+# O modelo, com placeholders, está versionado em .env.example.
+.env
+.env.local
+*.pem
+*.key
+
+# ------------------------------------------- estado gerado pela execução
+# politicas.json  — criado na primeira proposta salva pelo painel
+# traces/*.json   — um por pergunta respondida pelo agente
+# Ambos são estado de cada instalação, não fonte. A pasta traces/ fica no
+# repositório (via .gitkeep) porque a API grava dentro dela.
+politicas.json
+alcadas.json
+traces/*
+!traces/.gitkeep
+
+# ----------------------------------------------------------------- logs
+*.log
+logs/
+
+# ------------------------------------------------------- build / pacotes
+dist/
+build/
+
+# ------------------------------------------ sistema operacional e editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~

@@ -1,0 +1,23 @@
+:root{
+--radius-xs:3px;
+--radius-sm:6px;
+--radius-md:10px;
+--radius-lg:16px;
+--radius-xl:24px;
+--radius-pill:999px;
+--radius-card:var(--radius-md);
+
+--border-hairline:1px;
+--border-strong:1.5px;
+
+/* Shadows are near-invisible by design: structure comes from hairlines. */
+--shadow-none:none;
+--shadow-1:0 1px 2px rgba(23,23,27,.05);
+--shadow-2:0 4px 16px rgba(23,23,27,.06);
+--shadow-3:0 16px 48px rgba(23,23,27,.10);
+--shadow-focus:0 0 0 3px var(--focus-ring);
+
+/* Motivo do vértice: canto cortado a 45° e traço angular de 1px. */
+--vertex-cut:18px; /* @kind spacing */
+--vertex-clip:polygon(0 0,calc(100% - var(--vertex-cut)) 0,100% var(--vertex-cut),100% 100%,0 100%); /* @kind other */
+}

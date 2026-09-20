@@ -1,0 +1,95 @@
+:root{
+/* ---- Base: indigo (brand) ---- */
+--indigo-900:#0C0C74;
+--indigo-800:#12129E;
+--indigo-700:#1A1AC8;
+--indigo-600:#2E2CD6;
+--indigo-500:#4442E4;
+--lavender-400:#8E8BE6;
+--lavender-300:#A5A2E8;
+--lavender-200:#C9C7F5;
+--lavender-100:#E8E7FC;
+--lavender-050:#F2F1FE;
+
+/* ---- Base: ink / neutral ---- */
+--ink-900:#17171B;
+--ink-800:#26262C;
+--ink-700:#3A3A42;
+--ink-500:#6B6B78;
+--ink-400:#9A9AA6;
+--ink-300:#C4C4CC;
+--ink-200:#E3E3DF;
+--ink-100:#EDEDE9;
+--paper:#F6F6F4;
+--white:#FFFFFF;
+
+/* ---- Base: cobre — acento próprio da Vértice ----
+   O que separa a Vértice da família EloGroup: um único acento quente,
+   usado para marcar "agora", fase corrente e série secundária. Nunca em texto corrido. */
+--copper-700:#8A3F14;
+--copper-600:#B0521C;
+--copper-500:#C96A2E;
+--copper-300:#E2A97E;
+--copper-200:#F0D9C7;
+--copper-100:#FAEDE3;
+
+/* ---- Base: navy (dark surfaces) ---- */
+--navy-900:#0E2036;
+--navy-800:#16304C;
+--navy-700:#1F4266;
+
+/* ---- Base: semantic hues ---- */
+--green-700:#0F6E4E;
+--green-500:#12805C;
+--green-100:#E3F2EC;
+--red-700:#8F1D17;
+--red-500:#B3261E;
+--red-100:#FBE9E7;
+--amber-500:#A8700F;
+--amber-100:#FBF1DF;
+
+/* ---- Semantic: text ---- */
+--text-strong:var(--ink-900);
+--text-body:var(--ink-700);
+--text-muted:var(--ink-500);
+--text-faint:var(--ink-400);
+--text-accent:var(--indigo-700);
+--text-on-dark:var(--white);
+--text-on-dark-muted:#A9B7C6;
+--text-on-accent:var(--white);
+
+/* ---- Semantic: surfaces ---- */
+--surface-page:var(--paper);
+--surface-card:var(--white);
+--surface-sunken:var(--ink-100);
+--surface-accent-soft:var(--lavender-100);
+--surface-accent:var(--indigo-700);
+--surface-dark:var(--navy-900);
+--surface-signal-soft:var(--copper-100);
+
+/* ---- Semantic: acento de sinal (cobre) ---- */
+--accent-signal:var(--copper-600);
+--accent-signal-strong:var(--copper-700);
+--accent-signal-soft:var(--copper-200);
+--line-signal:var(--copper-300);
+
+/* ---- Semantic: lines ---- */
+--line-soft:var(--ink-200);
+--line-strong:var(--ink-300);
+--line-accent:var(--lavender-200);
+--line-on-dark:rgba(255,255,255,.18);
+
+/* ---- Semantic: status ---- */
+--status-positive:var(--green-500);
+--status-positive-soft:var(--green-100);
+--status-negative:var(--red-500);
+--status-negative-soft:var(--red-100);
+--status-warning:var(--amber-500);
+--status-warning-soft:var(--amber-100);
+
+/* ---- Interaction ---- */
+--action-primary:var(--indigo-700);
+--action-primary-hover:var(--indigo-800);
+--action-primary-press:var(--indigo-900);
+--focus-ring:color-mix(in oklch,var(--indigo-700) 40%,transparent);
+}
