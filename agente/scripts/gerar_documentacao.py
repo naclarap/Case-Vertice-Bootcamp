@@ -465,7 +465,7 @@ ferramenta que declara isso no campo de premissa.</p>
 
 <h2>16. Estrutura do projeto</h2>
 <div class="fluxo">
-vertice-retail/<br/>
+agente/<br/>
 ├── data/             cinco CSVs do case (entrada; nunca reescritos)<br/>
 ├── vertice/          motor + agente + API<br/>
 │   ├── engine/       {f['total_ferramentas']} ferramentas determinísticas, sem LLM<br/>
@@ -499,7 +499,7 @@ sudo apt install -y python3 python3-venv python3-pip
 
 <p class="rotulo">2. ENTRAR NO PROJETO</p>
 <div class="fluxo">
-cd /mnt/c/caminho/para/vertice-retail
+cd /mnt/c/caminho/para/Case-Vertice-Bootcamp/agente
 </div>
 <p class="nota">No WSL, o disco do Windows fica sob <code>/mnt/c/</code>. Todos
 os comandos partem da raiz do repositório — a pasta que contém

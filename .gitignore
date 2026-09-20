@@ -33,8 +33,8 @@ htmlcov/
 # repositório (via .gitkeep) porque a API grava dentro dela.
 politicas.json
 alcadas.json
-traces/*
-!traces/.gitkeep
+**/traces/*
+!**/traces/.gitkeep
 
 # ----------------------------------------------------------------- logs
 *.log
