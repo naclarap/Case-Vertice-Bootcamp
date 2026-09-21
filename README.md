@@ -12,7 +12,7 @@ nunca inventar um número.
 |---|---|---|
 | Análise | [`analise/`](analise/) | os quatro scripts do squad que geram e conferem os 358 números do trabalho |
 | Protótipo de IA | [`agente/`](agente/) | o MarginGuard: motor determinístico, agente ReAct e painel web |
-| Documentação | [`documentacao/`](documentacao/) | documentação técnica em PDF, para a banca |
+| Documentação | [`documentacao/`](documentacao/) | documentação técnica em PDF |
 
 ---
 
